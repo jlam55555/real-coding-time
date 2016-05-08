@@ -13,6 +13,7 @@ io.on("connection", function(socket) {
   next();
 });*/
 app.get("/*", function(req, res) {
-  res.sendFile(__dirname + "/public/" + req.URL);
+  res.sendFile(__dirname + "/public/" + req.url);
+  console.log(__dirname + "/public/" + req.url);
 });
 server.listen(3000);
