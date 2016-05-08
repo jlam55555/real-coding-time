@@ -7,5 +7,4 @@ io.on("connection", function(socket) {
     console.log("disconnected");
   });
 });
-app.use(require("express").static(__dirname + "/public"));
 http.listen(process.env.PORT || 5000);
