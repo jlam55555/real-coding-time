@@ -1,0 +1,18 @@
+{
+  "name": "real-coding-time",
+  "description": "A collaborative real-time code editor",
+  "version": "0.0.1",
+  "author": "Jonathan Lam <jlam55555@gmail.com>",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/jlam55555/real-coding-time"
+  },
+  "dependencies": {
+    "express": "4.13.4",
+    "socket.io": "1.4.6"
+  },
+  "license": "MIT"
+}
