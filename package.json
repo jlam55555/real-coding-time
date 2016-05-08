@@ -11,7 +11,8 @@
     "url": "https://www.github.com/jlam55555/real-coding-time"
   },
   "dependencies": {
-    "socket.io": "1.4.6"
+    "socket.io": "1.4.6",
+    "express": "4.13.4"
   },
   "license": "MIT"
 }
