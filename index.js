@@ -7,3 +7,4 @@ io.on("connection", function(socket) {
   });
 });
 server.listen(3000);
+io.set("transports", ["websocket"]);
