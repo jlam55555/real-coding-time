@@ -1,7 +1,7 @@
 var http = require("http").createServer();
 var io = require("socket.io")(http);
 
-var code = "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Hello, World!</title>\n  </head>\n  <body>\n    <h1>Hello, World!</h1>\n  </body>\n</html>";
+var code = 'console.log("Hello, World!")';
 io.on("connection", socket => {
   socket.emit("code", code);
   socket.on("codeUpdate", newCode => socket.broadcast.emit("code", (code = newCode)) );
