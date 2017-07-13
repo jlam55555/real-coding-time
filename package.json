@@ -3,6 +3,9 @@
   "description": "A collaborative real-time code editor",
   "version": "0.0.1",
   "author": "Jonathan Lam <jlam55555@gmail.com>",
+  "engines": {
+    "node": "4.8.4"
+  },
   "scripts": {
     "start": "node index.js"
   },
